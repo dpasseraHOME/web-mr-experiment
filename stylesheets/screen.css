@@ -1,0 +1,11 @@
+/*#video-container
+{
+	position: fixed;
+	width: 100%;
+}*/
+
+#camera-stream
+{
+	position: fixed;
+	width: 100%;
+}
