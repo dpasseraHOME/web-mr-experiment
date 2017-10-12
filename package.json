@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/dpasseraHOME/web-mr-experiment#readme",
   "dependencies": {
+    "aframe": "^0.7.0",
     "express": "^4.16.2"
   }
 }
