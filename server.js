@@ -11,6 +11,14 @@ app.get('/', function(req, res) {
 	res.sendFile(__dirname + '/index.html');
 });
 
-http.listen(process.env.PORT || 3000, function() {
-	console.log('listening on *:3000');
+app.get('/js/main.js', function(req, res) {
+	res.sendFile(__dirname+'/js/main.js');
+});
+
+app.get('/stylesheets/screen.css', function(req, res) {
+	res.sendFile(__dirname+'/stylesheets/screen.css');
+});
+
+http.listen(process.env.PORT || 8080, function() {
+	console.log('listening on *:8080');
 });
